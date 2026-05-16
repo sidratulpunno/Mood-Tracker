@@ -20,7 +20,7 @@ class MoodTrackerApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: ,
+      home: const MoodTrackerScreen(),
     );
   }
 }
