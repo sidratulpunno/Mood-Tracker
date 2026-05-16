@@ -10,11 +10,11 @@ extension MoodTypeExtension on MoodType {
   Color get color {
     switch (this) {
       case MoodType.happy:
-        return const Color(0xFFFFB74D);
+        return const Color(0xFFFFB96D);
       case MoodType.neutral:
         return const Color(0xFF90A4AE);
       case MoodType.sad:
-        return const Color(0xFF7986CB);
+        return const Color(0xFF7987CB);
     }
   }
 
